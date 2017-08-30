@@ -1,0 +1,60 @@
+  .header {
+        cursor:pointer;
+        padding: 15px 30px;
+        background-color: #fab512;
+        color: #fff;
+        font-size: 22px;
+        height: 60px;
+        width: 100%;
+        position: fixed;
+        z-index:1;
+        top: 0;
+        left: 0;
+        overflow:hidden;
+        white-space:nowrap;
+        text-overflow:ellipsis;
+    }
+    
+    .gluten-header-text{
+        overflow:hidden;
+        white-space:nowrap;
+        text-overflow:ellipsis;
+    }
+
+    .gluten-container {
+        cursor: pointer;
+        margin-top: 60px; 
+        padding: 0;
+    }
+
+    .gluten-item {
+        padding: 20px 0px 20px 10px;
+        min-height: 70px;
+        border-bottom: 1px solid #bad7d0;
+        color: #315846;
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    .desc {
+        font-size: 13px;
+        font-weight: normal;
+    }
+    body{
+        height:100%;
+        min-height:100%;
+        background: #c6f1e8; /* For browsers that do not support gradients */
+        background: -webkit-linear-gradient(#c6f1e8, #f8d7aa); /* For Safari 5.1 to 6.0 */
+        background: -o-linear-gradient(#c6f1e8, #f8d7aa); /* For Opera 11.1 to 12.0 */
+        background: -moz-linear-gradient(#c6f1e8, #f8d7aa); /* For Firefox 3.6 to 15 */
+        background: linear-gradient(#c6f1e8, #f8d7aa); /* Standard syntax (must be last) */
+    }
+    footer {
+        background-color: #fab512;
+    clear: both;
+    position: fixed;
+    bottom:0;
+    z-index: 1;
+    height: 40px;
+    width:100%;
+}

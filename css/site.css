@@ -49,6 +49,9 @@
 html{
   height:100%;
 }
+a{
+    color:#fff;
+}
     body{
         font-family: 'duepuntozeroregular';
         height:100%;

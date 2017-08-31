@@ -50,7 +50,7 @@ var vm = function () {
             }
         },
         getItemTemplate: function () {
-            return '<div gluten-item class="gluten-item" data-id="{itemId}"> ' +
+            return '<div gluten-item class="gluten-item row" data-id="{itemId}"> ' +
                         '<div class="col-md-10 col-xs-10">{name}</div>' +
                         '<div class="col-md-1 col-xs-1">{>}</div>' +
                         '<div class="desc pull-left col-md-10 col-xs-10">{desc}</div>' +

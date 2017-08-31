@@ -51,7 +51,7 @@ var vm = function () {
         },
         getItemTemplate: function () {
             return '<div gluten-item class="gluten-item row" data-id="{itemId}"> ' +
-                        '<div class="col-md-10 col-xs-10">{name}</div>' +
+                        '<div class="col-md-10 col-xs-10" style="font-weight:bold;">{name}</div>' +
                         '<div class="col-md-1 col-xs-1">{>}</div>' +
                         '<div class="desc pull-left col-md-10 col-xs-10">{desc}</div>' +
                     '</div';
@@ -63,7 +63,7 @@ var vm = function () {
         },
         getHeaderTemplate: function () {
             return '<div gluten-header class="col-md-12 col-xs-12 gluten-header-text" data-id="{itemId}">' +
-                            '< {name}' +
+                            '<  {name}' +
                     '</div>';
         },
         hasChildren: function (id) {

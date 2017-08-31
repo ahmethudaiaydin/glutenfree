@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'duepuntozeroregular';
-    src: url('font/duepuntozero-regular-trial-webfont.woff2') format('woff2'),
-         url('font/duepuntozero-regular-trial-webfont.woff') format('woff');
+    src: url('../font/duepuntozero-regular-trial-webfont.woff2') format('woff2'),
+         url('../font/duepuntozero-regular-trial-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 } 

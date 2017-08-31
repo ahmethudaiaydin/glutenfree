@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'duepuntozeroregular';
-    src: url('../font/duepuntozero_regular.otf') format('otf');
+    src: url('../font/duepuntozero_regular.otf');
     font-weight: normal;
     font-style: normal;
 } 

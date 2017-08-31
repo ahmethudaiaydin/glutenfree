@@ -6,7 +6,7 @@
 } 
 .header {
         cursor:pointer;
-        padding: 15px 30px;
+        padding: 15px 10px;
         background-color: #fab512;
         color: #fff;
         font-size: 22px;
@@ -62,6 +62,7 @@ html{
         background-attachment: fixed;
     }
     footer {
+            padding: 13px 30px;
         background-color: #fab512;
     clear: both;
     position: fixed;

@@ -51,6 +51,8 @@ html{
         background: -o-linear-gradient(#c6f1e8, #f8d7aa); /* For Opera 11.1 to 12.0 */
         background: -moz-linear-gradient(#c6f1e8, #f8d7aa); /* For Firefox 3.6 to 15 */
         background: linear-gradient(#c6f1e8, #f8d7aa); /* Standard syntax (must be last) */
+        background-repeat: no-repeat;
+        background-attachment: fixed;
     }
     footer {
         background-color: #fab512;

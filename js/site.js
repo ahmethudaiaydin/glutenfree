@@ -57,7 +57,16 @@ var vm = function () {
                     '</div';
         },
         getDefaultHeaderTemplate: function () {
-            return '<div gluten-header class="col-md-12 col-xs-12" data-id="null">' +
+            return '<div gluten-header="" class="col-md-12 col-xs-12" data-id="null">' +
+                        '<div class="row">' +
+                        '<div class="col-xs-10">Kategori Listesi</div>' +
+                        '<div class="col-xs-2"><a href="hakkimizda.html"><span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span></a></div>' +
+                        '</div>'+
+                    '</div>';
+            
+            
+            
+            '<div gluten-header class="col-md-12 col-xs-12" data-id="null">' +
                             'Kategori Listesi' +
                     '</div>';
         },

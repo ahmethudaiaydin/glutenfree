@@ -852,7 +852,7 @@
    },
    {
       "id": 137,
-      "parentId": null,
+      "parentId": 820,
       "hasChildItem": true,
       "name": "Diyabetikler İçin Tatlandırıcılar"
    },
@@ -1558,7 +1558,7 @@
    },
    {
       "id": 254,
-      "parentId": null,
+      "parentId": 815,
       "hasChildItem": true,
       "name": "Kabartma Tozu "
    },
@@ -1714,7 +1714,7 @@
    },
    {
       "id": 280,
-      "parentId": null,
+      "parentId": 815,
       "hasChildItem": true,
       "name": "Kakao"
    },
@@ -1992,7 +1992,7 @@
    },
    {
       "id": 326,
-      "parentId": null,
+      "parentId": 815,
       "hasChildItem": true,
       "name": "Krema "
    },
@@ -2024,7 +2024,7 @@
       "id": 331,
       "parentId": null,
       "hasChildItem": true,
-      "name": "Kuruyemiş Ve Çerezler"
+      "name": "Kuruyemiş ve Çerezler"
    },
    {
       "id": 332,
@@ -2383,7 +2383,7 @@
    },
    {
       "id": 391,
-      "parentId": null,
+      "parentId": 815,
       "hasChildItem": true,
       "name": "Maya "
    },
@@ -2437,7 +2437,7 @@
    },
    {
       "id": 400,
-      "parentId": null,
+      "parentId": 818,
       "hasChildItem": true,
       "name": "Margarin"
    },
@@ -3153,7 +3153,7 @@
    },
    {
       "id": 519,
-      "parentId": null,
+      "parentId": 820,
       "hasChildItem": true,
       "name": "Sakız"
    },
@@ -3352,7 +3352,7 @@
    },
    {
       "id": 552,
-      "parentId": null,
+      "parentId": 821,
       "hasChildItem": true,
       "name": "Sirke",
       "description": "\"Balsamik olmaması koşuluyla\""
@@ -3834,7 +3834,7 @@
    },
    {
       "id": 632,
-      "parentId": null,
+      "parentId": 816,
       "hasChildItem": true,
       "name": "Şehriye "
    },
@@ -3876,7 +3876,7 @@
    },
    {
       "id": 639,
-      "parentId": null,
+      "parentId": 820,
       "hasChildItem": true,
       "name": "Şekerleme ",
       "description": "\"Kent firmasının (Mondalez) uyguladığı kural olarak şekerleme ürünlerini ambalaj okumadan almayınız.\""
@@ -3908,7 +3908,7 @@
    },
    {
       "id": 645,
-      "parentId": null,
+      "parentId": 820,
       "hasChildItem": true,
       "name": "Misafir Şekerleri",
       "description": "\"Kent Ürünleri (Mondalez) Bu firmanın ürünlerinin etiketini okuyunuz. Firma eğer etiketinde uyarı yoksa yiyebilirsiniz şeklinde onay vermiştir.\""
@@ -4163,7 +4163,7 @@
    },
    {
       "id": 687,
-      "parentId": null,
+      "parentId": 821,
       "hasChildItem": true,
       "name": "Turşu "
    },
@@ -4580,7 +4580,7 @@
       "id": 756,
       "parentId": null,
       "hasChildItem": true,
-      "name": "İkea"
+      "name": "Ikea"
    },
    {
       "id": 757,
@@ -4960,5 +4960,17 @@
       "parentId": null,
       "hasChildItem": true,
       "name": "Salça, Harç ve Bulyon"
+   },
+   {
+      "id": 820,
+      "parentId": null,
+      "hasChildItem": true,
+      "name": "Tatlandırıcı, Şekerleme, Misafir Şekeri, Sakız"
+   },
+   {
+      "id": 821,
+      "parentId": null,
+      "hasChildItem": true,
+      "name": "Turşu, Sirke"
    }
 ]

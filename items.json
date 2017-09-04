@@ -1,6 +1,7 @@
 [
    {
       "id": 1,
+      "parentId": null,
       "hasChildItem": true,
       "name": "Atıştırmalıklar - Krokan, Cips, Bisküvi, Kek"
    },
@@ -15,25 +16,29 @@
       "id": 3,
       "parentId": 1,
       "hasChildItem": false,
-      "name": "Bağdat Sebze ve Meyve Kuruları"
+      "name": "Bağdat Sebze ve Meyve Kuruları",
+      "column5": "(Not: Mabel markasının glutenli olanları aşağıda listelenmiştir onları  almayınız.)"
    },
    {
       "id": 4,
       "parentId": 1,
       "hasChildItem": false,
-      "name": "Bercekız Servet Şekerleme Krokan"
+      "name": "Bercekız Servet Şekerleme Krokan",
+      "column5": "MABEL FİRMASININ AÇIKLAMASI;"
    },
    {
       "id": 5,
       "parentId": 1,
       "hasChildItem": false,
-      "name": "Bjorg Galetta Mais Corn Cakes Organik Glutensiz Mısır Topakları"
+      "name": "Bjorg Galetta Mais Corn Cakes Organik Glutensiz Mısır Topakları",
+      "column5": "Gerçek çikolata çeşitlerinin (sütlü, bitter ve beyaz çikolata) hiçbirinde tahılların ana protein bileşeni olan Gluten yoktur."
    },
    {
       "id": 6,
       "parentId": 1,
       "hasChildItem": false,
-      "name": "Bjorg Rice Cakes 130g Export-Organik Glutensiz Bütün Pirinç topakları"
+      "name": "Bjorg Rice Cakes 130g Export-Organik Glutensiz Bütün Pirinç topakları",
+      "column5": "Çikolata ürünlerinde bazı spesiyal çeşitlerde farklı çeşniler vermek amacıyla bazı UNLU mamuller kullanılabilir."
    },
    {
       "id": 7,
@@ -45,25 +50,29 @@
       "id": 8,
       "parentId": 7,
       "hasChildItem": false,
-      "name": "My Cooky Glutensiz Çikolata Parçacıklı Bisküvi"
+      "name": "My Cooky Glutensiz Çikolata Parçacıklı Bisküvi",
+      "column5": "Bizim fabrikamızda imal edilen bu spesiyal (UNLU) ürünler aşağıda listelenmiştir.(Bunları almayınız!)"
    },
    {
       "id": 9,
       "parentId": 7,
       "hasChildItem": false,
-      "name": "My Cooky Glutensiz Portakal Aromalı Kakaolu Bisküvi"
+      "name": "My Cooky Glutensiz Portakal Aromalı Kakaolu Bisküvi",
+      "column5": "1. Bitter Çikolata Kaplı Gofret ( çeşit numarası 74109 ve 74009) 2. Bisküvi kırıntılı mantar şekline dekorlu beyaz çikolata ( 72009 grubu içinde) 3. Gofret dolgulu tablet 70 g.(çeşit numarası 71110) 4. Patlamış buğday merkezli draje (çeşit numarası 73048, 73049, 73050, 73060 ve 73061) 5. Çikolata kaplı Patlamış pirinçli pralin (çeşit numarası 72009 ve 72004 grupların içinde) 6. Katologda saksı ismi altında görülen gofretdolgulu sütlü çikolata ( 72009 grubu içinde ve 71904-A) 7. Bitter çikolata kaplı fıstıklı lokum (72004 grupların içinde) 8. Bitter çikolata kaplı kestane ezmesi ( 72004 grupların içinde) "
    },
    {
       "id": 10,
       "parentId": 7,
       "hasChildItem": false,
-      "name": "My Cooky Glutensiz Karamelli"
+      "name": "My Cooky Glutensiz Karamelli",
+      "column5": "Yukarıdaki 8 ürün grubu içindekilerin dışındaki bütün çeşitlerimiz glüten adı altındaki amino asitlerden hiç birini içermez."
    },
    {
       "id": 11,
       "parentId": 1,
       "hasChildItem": false,
-      "name": "Çıtır Elma"
+      "name": "Çıtır Elma",
+      "column5": "Ve yukarıda sakıncalı olabileceği belirtilen 8 grup ürün AYRI bir üretim hattında imal edildiğinden (diğer glutensiz ürünlerimize) çapraz bulaşma tehlikesi yoktur. Diğer glutensiz ürünlerimizi gönül rahatlığı ile yiyebilirsiniz.."
    },
    {
       "id": 12,
@@ -87,104 +96,121 @@
       "id": 15,
       "parentId": 12,
       "hasChildItem": false,
-      "name": "Mercimek Deniz Tuzlu"
+      "name": "Mercimek Deniz Tuzlu",
+      "column5": "OKUNARAK ALINMASI GEREKEN ÜRÜNLER"
    },
    {
       "id": 16,
       "parentId": 12,
       "hasChildItem": false,
-      "name": "Mercimek Domatesli & Fesleğenli"
+      "name": "Mercimek Domatesli & Fesleğenli",
+      "column5": "KENT FİRMASI (Mondelez)"
    },
    {
       "id": 17,
       "parentId": 1,
       "hasChildItem": true,
-      "name": "Eti"
+      "name": "Eti",
+      "column5": "Kent şeker ürünleri üzerinde uyarı bilgilendirme yapmaktadır."
    },
    {
       "id": 18,
       "parentId": 17,
       "hasChildItem": false,
-      "name": "Pronot zeytinli"
+      "name": "Pronot zeytinli",
+      "column5": "Kent Gıda firması diye kurulan firma sonra Kraft Foods firması daha sonra da 2012 yılında atıştırmalık ürünlerde dünya firması olan Kent Gıda Türkiye MONDELEZ INTERNACİONAL HOLDİNGS LLC. adını almıştır. Aşağıda adı geçen Kent ŞEKER ürünlerinin gluten içerip içermediğini öğrenmek için üzerini okumadan almayınız."
    },
    {
       "id": 19,
       "parentId": 17,
       "hasChildItem": false,
-      "name": "Pronot kakaolu"
+      "name": "Pronot kakaolu",
+      "column5": "Jelibon"
    },
    {
       "id": 20,
       "parentId": 17,
       "hasChildItem": false,
-      "name": "Pronot portakallı"
+      "name": "Pronot portakallı",
+      "column5": "Olips"
    },
    {
       "id": 21,
       "parentId": 17,
       "hasChildItem": false,
-      "name": "Pronot sade bisküvileri"
+      "name": "Pronot sade bisküvileri",
+      "column5": "PopTıp"
    },
    {
       "id": 22,
       "parentId": 17,
       "hasChildItem": false,
-      "name": "Pronot mini kekler"
+      "name": "Pronot mini kekler",
+      "column5": "Missbon"
    },
    {
       "id": 23,
       "parentId": 1,
       "hasChildItem": true,
-      "name": "Fiorentini"
+      "name": "Fiorentini",
+      "column5": "Tofita"
    },
    {
       "id": 24,
       "parentId": 23,
       "hasChildItem": false,
-      "name": "Organik Chiali Mini Mısır Gevrekleri"
+      "name": "Organik Chiali Mini Mısır Gevrekleri",
+      "column5": "Topitop"
    },
    {
       "id": 25,
       "parentId": 23,
       "hasChildItem": false,
-      "name": "Organik Kinoalı Mini Mısır Gevrekleri"
+      "name": "Organik Kinoalı Mini Mısır Gevrekleri",
+      "column5": "Kent Modelez firmasının"
    },
    {
       "id": 26,
       "parentId": 1,
       "hasChildItem": false,
       "name": "Glutenon",
-      "description": "\"www.glutenon.com\""
+      "description": "\"www.glutenon.com\"",
+      "column5": "Sakız markaları"
    },
    {
       "id": 27,
       "parentId": 1,
       "hasChildItem": false,
-      "name": "Glutensiz Ada kurabiye Çeşitleri"
+      "name": "Glutensiz Ada kurabiye Çeşitleri",
+      "column5": "Çikolata markaları"
    },
    {
       "id": 28,
       "parentId": 1,
       "hasChildItem": false,
-      "name": "Gold Balfıstık"
+      "name": "Gold Balfıstık",
+      "column5": "Kahve markaları da  bulunmaktadır. Bunlar da ayrıca sorgulanmalıdır."
    },
    {
       "id": 29,
       "parentId": 1,
       "hasChildItem": false,
-      "name": "Hip Organik Bebek Gofreti, Pirinç patlağı  Elmalı ve Böğürtlenli"
+      "name": "Hip Organik Bebek Gofreti, Pirinç patlağı  Elmalı ve Böğürtlenli",
+      "column5": "Mentos Nowmints Nefes Tazeleyici Mikro Şekerleme Yeşil Nane Tinbox-Okaliptus Tinbox-Çilek- Portakal Tinbox."
    },
    {
       "id": 30,
       "parentId": 1,
       "hasChildItem": false,
-      "name": "Mina Glutensiz tatlı ve tuzlu atıştırmalıklar"
+      "name": "Mina Glutensiz tatlı ve tuzlu atıştırmalıklar",
+      "column5": "Chupa Chups- Lolipop Şeker Çilek, Krema Çilek, Portakal,Trio Çilek Kivi-Elma tropikal meyve,Trio Tutti Frutti ve ananas-Melody Pops."
    },
    {
       "id": 31,
       "parentId": 1,
       "hasChildItem": true,
-      "name": "Le Pain des Fleurs"
+      "name": "Le Pain des Fleurs",
+      "column5": "DİKKAT  CHUPA CHUPS LOLİPOP ŞEKER  KOLA 10 g GLUTEN İÇERİR. Bu ürünü almayınız."
    },
    {
       "id": 32,
@@ -826,6 +852,7 @@
    },
    {
       "id": 137,
+      "parentId": null,
       "hasChildItem": true,
       "name": "Diyabetikler İçin Tatlandırıcılar"
    },
@@ -903,6 +930,7 @@
    },
    {
       "id": 150,
+      "parentId": null,
       "hasChildItem": true,
       "name": "Dondurma"
    },
@@ -1120,6 +1148,7 @@
    },
    {
       "id": 186,
+      "parentId": null,
       "hasChildItem": true,
       "name": "Dondurulmuş Sebzeler "
    },
@@ -1420,6 +1449,7 @@
    },
    {
       "id": 236,
+      "parentId": null,
       "hasChildItem": true,
       "name": "Hazır Çorbalar"
    },
@@ -1528,6 +1558,7 @@
    },
    {
       "id": 254,
+      "parentId": null,
       "hasChildItem": true,
       "name": "Kabartma Tozu "
    },
@@ -1683,6 +1714,7 @@
    },
    {
       "id": 280,
+      "parentId": null,
       "hasChildItem": true,
       "name": "Kakao"
    },
@@ -1918,6 +1950,7 @@
    },
    {
       "id": 319,
+      "parentId": null,
       "hasChildItem": true,
       "name": "Konserveler "
    },
@@ -1959,6 +1992,7 @@
    },
    {
       "id": 326,
+      "parentId": null,
       "hasChildItem": true,
       "name": "Krema "
    },
@@ -1988,6 +2022,7 @@
    },
    {
       "id": 331,
+      "parentId": null,
       "hasChildItem": true,
       "name": "Kuruyemiş Ve Çerezler"
    },
@@ -2348,6 +2383,7 @@
    },
    {
       "id": 391,
+      "parentId": null,
       "hasChildItem": true,
       "name": "Maya "
    },
@@ -2401,6 +2437,7 @@
    },
    {
       "id": 400,
+      "parentId": null,
       "hasChildItem": true,
       "name": "Margarin"
    },
@@ -2592,6 +2629,7 @@
    },
    {
       "id": 432,
+      "parentId": null,
       "hasChildItem": true,
       "name": "Pasta Malzemeleri Ve Şeker Hamurları "
    },
@@ -3115,6 +3153,7 @@
    },
    {
       "id": 519,
+      "parentId": null,
       "hasChildItem": true,
       "name": "Sakız"
    },
@@ -3313,6 +3352,7 @@
    },
    {
       "id": 552,
+      "parentId": null,
       "hasChildItem": true,
       "name": "Sirke",
       "description": "\"Balsamik olmaması koşuluyla\""
@@ -3794,6 +3834,7 @@
    },
    {
       "id": 632,
+      "parentId": null,
       "hasChildItem": true,
       "name": "Şehriye "
    },
@@ -3835,6 +3876,7 @@
    },
    {
       "id": 639,
+      "parentId": null,
       "hasChildItem": true,
       "name": "Şekerleme ",
       "description": "\"Kent firmasının (Mondalez) uyguladığı kural olarak şekerleme ürünlerini ambalaj okumadan almayınız.\""
@@ -3866,6 +3908,7 @@
    },
    {
       "id": 645,
+      "parentId": null,
       "hasChildItem": true,
       "name": "Misafir Şekerleri",
       "description": "\"Kent Ürünleri (Mondalez) Bu firmanın ürünlerinin etiketini okuyunuz. Firma eğer etiketinde uyarı yoksa yiyebilirsiniz şeklinde onay vermiştir.\""
@@ -4120,6 +4163,7 @@
    },
    {
       "id": 687,
+      "parentId": null,
       "hasChildItem": true,
       "name": "Turşu "
    },
@@ -4534,6 +4578,7 @@
    },
    {
       "id": 756,
+      "parentId": null,
       "hasChildItem": true,
       "name": "İkea"
    },
@@ -4858,51 +4903,61 @@
    },
    {
       "id": 810,
+      "parentId": null,
       "hasChildItem": true,
       "name": "Kozmetik, Diş Macunu, Şampuan"
    },
    {
       "id": 811,
+      "parentId": null,
       "hasChildItem": true,
       "name": "İçecekler"
    },
    {
       "id": 812,
+      "parentId": null,
       "hasChildItem": true,
       "name": "Çikolata ve Ezme"
    },
    {
       "id": 813,
+      "parentId": null,
       "hasChildItem": true,
       "name": "Ketçap, Mayonez ve Soslar"
    },
    {
       "id": 814,
+      "parentId": null,
       "hasChildItem": true,
       "name": "Et, Tavuk ve Balık Ürünleri"
    },
    {
       "id": 815,
+      "parentId": null,
       "hasChildItem": true,
       "name": "Unlu Mamüller ve Tatlılar"
    },
    {
       "id": 816,
+      "parentId": null,
       "hasChildItem": true,
       "name": "Makarna ve Bakliyat"
    },
    {
       "id": 817,
+      "parentId": null,
       "hasChildItem": true,
       "name": "Şeker, Tuz, Baharat"
    },
    {
       "id": 818,
+      "parentId": null,
       "hasChildItem": true,
       "name": "Süt Ürünleri ve Kahvaltılık"
    },
    {
       "id": 819,
+      "parentId": null,
       "hasChildItem": true,
       "name": "Salça, Harç ve Bulyon"
    }

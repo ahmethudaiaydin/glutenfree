@@ -4,12 +4,12 @@ var vm = function () {
         list: [],
         loadList: function (callback) {
             $.getJSON('items.json', function (result) {
-                list = [];
+                vm.list = [];
                 for (var i = 0; i < result.length; i++) {
+                    result[i].name = result[i].name.trim();
                     vm.list.push(result[i]);
                 }
                 callback();
-
             });
         },
         filteredList: [],
@@ -20,6 +20,14 @@ var vm = function () {
         showMainCategories: function () {
             return vm.filterList(null);
         },
+        getChildNames: function(itemId){
+            var childrenOfSelected = vm.children(itemId);
+            if (childrenOfSelected) {
+                var list = childrenOfSelected.map(function (elem) { return elem.hasChildItem ? elem.name : null; });
+                return $.grep(list, Boolean).join(', ');
+            }
+            return '';
+        },
         displayFilteredList: function () {
 
             $('.gluten-container').html('');
@@ -28,14 +36,20 @@ var vm = function () {
                 var template = vm.getItemTemplate();
                 template = template.replace('{itemId}', item.id);
                 template = template.replace('{name}', item.name);
-                template = template.replace('{>}', vm.hasChildren(item.id) ? '>' : '');
-
-                if (item.description != null) {
-                    template = template.replace('{desc}', item.description);
-
-                } else {
-                    template = template.replace('{desc}', '');
+                template = template.replace('{>}', item.hasChildItem ? '>' : '');
+                var desc = '';
+                if (item.parentId == null) {
+                    var childNames = vm.getChildNames(item.id);
+                    if (childNames !== '') {
+                        desc = childNames;
+                    }
                 }
+                
+                if (item.description) {
+                    desc += '</br>' + item.description;
+                }
+                template = template.replace('{desc}', desc);
+
                 $('.gluten-container').append(template);
                 if (vm.selectedItem) {
                     var headerTemplate = vm.getHeaderTemplate();
@@ -61,11 +75,11 @@ var vm = function () {
                         '<div class="row">' +
                         '<div class="col-xs-10">Kategori Listesi</div>' +
                         '<div class="col-xs-2"><a href="hakkimizda.html"><span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span></a></div>' +
-                        '</div>'+
+                        '</div>' +
                     '</div>';
-            
-            
-            
+
+
+
             '<div gluten-header class="col-md-12 col-xs-12" data-id="null">' +
                             'Kategori Listesi' +
                     '</div>';
@@ -75,9 +89,10 @@ var vm = function () {
                             '<  {name}' +
                     '</div>';
         },
-        hasChildren: function (id) {
-            return $.grep(vm.list, function (e) { return e.parentId == id }).length > 0;
+        children: function (id) {
+            return $.grep(vm.list, function (e) { return e.parentId == id });
         }
+
     };
 }();
 
@@ -85,13 +100,13 @@ $(document).ready(function () {
     vm.loadList(vm.showMainCategories);
     $(document).on('click', '[gluten-item],[gluten-header]', function () {
         var dataId = $(this).data('id');
-        if (vm.hasChildren(dataId)) {
-            vm.selectedItem = $.grep(vm.list, function (e) { return e.id == dataId })[0];
-            if (vm.selectedItem) {
+        vm.selectedItem = $.grep(vm.list, function (e) { return e.id == dataId })[0];
+        if (vm.selectedItem) {
+            if (vm.selectedItem.hasChildItem) {
                 vm.filterList(vm.selectedItem.id);
-            } else {
-                vm.filterList(null);
             }
+        } else {
+            vm.filterList(null);
         }
     });
 });

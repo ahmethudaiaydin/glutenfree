@@ -20,13 +20,6 @@
       "column5": "(Not: Mabel markasının glutenli olanları aşağıda listelenmiştir onları  almayınız.)"
    },
    {
-      "id": 4,
-      "parentId": 1,
-      "hasChildItem": false,
-      "name": "Bercekız Servet Şekerleme Krokan",
-      "column5": "MABEL FİRMASININ AÇIKLAMASI;"
-   },
-   {
       "id": 5,
       "parentId": 1,
       "hasChildItem": false,
@@ -2129,43 +2122,6 @@
       "name": "Lokum "
    },
    {
-      "id": 349,
-      "parentId": 348,
-      "hasChildItem": true,
-      "name": "Altınay Sultan",
-      "description": "\"www.altinaylokum.com.tr\""
-   },
-   {
-      "id": 350,
-      "parentId": 349,
-      "hasChildItem": false,
-      "name": "Tüm Lokum Çeşitleri"
-   },
-   {
-      "id": 351,
-      "parentId": 349,
-      "hasChildItem": false,
-      "name": "Kaymak Ezme"
-   },
-   {
-      "id": 352,
-      "parentId": 349,
-      "hasChildItem": false,
-      "name": "Cezerye"
-   },
-   {
-      "id": 353,
-      "parentId": 349,
-      "hasChildItem": false,
-      "name": "Cevizli Sucuk"
-   },
-   {
-      "id": 354,
-      "parentId": 348,
-      "hasChildItem": false,
-      "name": "Bercekız Servet Şekerleme Lokum Çeşitleri"
-   },
-   {
       "id": 355,
       "parentId": 348,
       "hasChildItem": false,
@@ -3662,7 +3618,7 @@
       "id": 603,
       "parentId": 600,
       "hasChildItem": false,
-      "name": "Kazandibi,"
+      "name": "Kazandibi"
    },
    {
       "id": 604,
@@ -3704,7 +3660,7 @@
       "id": 610,
       "parentId": 599,
       "hasChildItem": false,
-      "name": "Kestanella (Bursa – Kafkas"
+      "name": "Kestanella (Bursa – Kafkas)"
    },
    {
       "id": 611,
@@ -3954,7 +3910,7 @@
       "id": 652,
       "parentId": 816,
       "hasChildItem": true,
-      "name": "Tarhana "
+      "name": "Tarhana"
    },
    {
       "id": 653,
@@ -3978,7 +3934,7 @@
       "id": 656,
       "parentId": 652,
       "hasChildItem": false,
-      "name": "Organic Garden"
+      "name": "Organic Garden Glutensiz"
    },
    {
       "id": 657,
@@ -4972,5 +4928,54 @@
       "parentId": null,
       "hasChildItem": true,
       "name": "Turşu, Sirke"
-   }
+   },
+   {
+      "id": 822,
+      "parentId": 331,
+      "hasChildItem": false,
+      "name": "Arzu Kuruyemiş",
+      "description": "Çorum'da satılmaktadır. Tüm Türkiye'ye kargo gönderiyorlar."
+   },
+   {
+      "id": 823,
+      "parentId": 280,
+      "hasChildItem": false,
+      "name": "Fiero Kakao"
+   },
+   {
+      "id": 824,
+      "parentId": 323,
+      "hasChildItem": false,
+      "name": "Mina Glutensiz Krem Şanti"
+   },
+   {
+      "id": 825,
+      "parentId": 326,
+      "hasChildItem": false,
+      "name": "Fiero Toz Krema"
+   },
+   {
+      "id": 825,
+      "parentId": 461,
+      "hasChildItem": false,
+      "name": "Balkaya beyaz ve kaşar peynir"
+   },
+    {
+      "id": 826,
+      "parentId": 461,
+      "hasChildItem": false,
+      "name": "Gündoğdu"
+   },
+    {
+      "id": 827,
+      "parentId": 667,
+      "hasChildItem": false,
+      "name": "Gündoğdu"
+   },
+   {
+      "id": 828,
+      "parentId": 758,
+      "hasChildItem": false,
+      "name": "Wellcare Probiyotik Yoğurt"
+   },
 ]

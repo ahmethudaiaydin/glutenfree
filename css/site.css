@@ -91,11 +91,12 @@ a {
 }
 
 .gluten-item {
+    position: relative;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     margin: 0 0 12px;
-    padding: 16px;
+    padding: 16px 44px 16px 16px;
     background: var(--card);
     border-radius: 12px;
     box-shadow: 0 1px 2px rgba(31, 41, 55, 0.05), 0 1px 4px rgba(31, 41, 55, 0.04);
@@ -142,8 +143,10 @@ a {
 .gluten-item .chevron,
 .gluten-item > .col-md-1,
 .gluten-item > .col-xs-1 {
-    flex: 0 0 auto;
-    margin-left: 10px !important;
+    position: absolute;
+    top: 50%;
+    right: 16px;
+    transform: translateY(-50%);
     font-size: 22px;
     font-weight: 600;
     line-height: 1;
